@@ -87,19 +87,11 @@ Remove-Item -path "\\$Computer\c$\Users\*\\AppData\Local\Google\Chrome\User Data
 
 
 
-
 #CutePDF temp files
 
  Remove-Item -path "\\$Computer\c$\Users\*\\AppData\Local\CutePDF\*" -Recurse -Force -EA SilentlyContinue -Verbose  
 
-  
-
-#Cookies
-
-# Remove-Item -path "D:\Profiles\$($_.Name)\Cookies\Low\*" -Recurse -Force -EA SilentlyContinue -Verbose  
-
-# Remove-Item -path "D:\Profiles\$($_.Name)\Cookies\*" -Recurse -Force -EA SilentlyContinue -Verbose  
-
+ 
 
 }
 
